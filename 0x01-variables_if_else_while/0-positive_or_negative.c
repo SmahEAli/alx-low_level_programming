@@ -3,15 +3,16 @@
 #include<time.h>
 
 /**
- * main - prints if random n is -ve or +ve 
+ * main - prints if random n is -ve or +ve
  *
  * Return: 0 (Success)
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
-	n = rand() - RAND_MAX /2;
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);

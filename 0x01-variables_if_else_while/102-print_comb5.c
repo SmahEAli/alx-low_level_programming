@@ -3,7 +3,7 @@
 #include<time.h>
 
 /**
- * main - prints 00-99 cb 
+ * main - prints 00-99 cb
  *
  * Return: 0 (Success)
  */
@@ -18,9 +18,9 @@ int main(void)
 			putchar((n1 / 10) + '0');
 			putchar((n1 % 10) + '0');
 			putchar(' ');
-			putchar((n2 /10) + '0');
+			putchar((n2 / 10) + '0');
 			putchar((n2 % 10) + '0');
-			if (n1 == 98 && n2 ==99)
+			if (n1 == 98 && n2 == 99)
 			{
 				continue;
 			}

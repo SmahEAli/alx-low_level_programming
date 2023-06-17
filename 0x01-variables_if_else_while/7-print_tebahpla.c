@@ -7,11 +7,11 @@
  *
  * Return: 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	char _c;
 
-	for (_c = 'z'; _c <= 'a'; _c++)
+	for (_c = 'z'; _c >= 'a'; _c--)
 	{
 		putchar(_c);
 	}

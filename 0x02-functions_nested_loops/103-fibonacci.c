@@ -10,7 +10,7 @@ int main(void)
 	int i = 0;
 	long x = 1, y = 2, sum = y;
 
-	while(x + y < 4000000)
+	while (x + y < 4000000)
 	{
 		y = y + x;
 		if (y % 2 == 0)
@@ -20,6 +20,6 @@ int main(void)
 		x = y - x;
 		++i;
 	}
-	printf("%ld\n", sum);	
+	printf("%ld\n", sum);
 	return (0);
 }

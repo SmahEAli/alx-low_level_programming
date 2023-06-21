@@ -7,22 +7,22 @@
 int main(void)
 {
 	int i = 0, x = 1, y = 2;
-	
+
 	while (i <= 50)
 	{
 		if (i == 1)
 		{
-			return (x);
+			printf("%d", x);
 		}
 		else if (i == 2)
 		{
-			return (y);
+			printf(", %d", y);
 		}
 		else
 		{
 			y = y + x;
 			x = y - x;
-			return (y);
+			printf(", %d", y);
 		}
 	++i;
 	}

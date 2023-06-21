@@ -20,13 +20,9 @@ void print_times_table(int n)
 				_putchar(' ');
 				x = num * mul;
 				if (x <= 99)
-				{
 					_putchar(' ');
-				}
 				if (x <= 9)
-				{
 					_putchar(' ');
-				}
 				if (x >= 100)
 				{
 					_putchar((x / 100) + '0');
@@ -35,10 +31,10 @@ void print_times_table(int n)
 				else if (x <= 99 && x >= 10)
 				{
 					_putchar((x / 10) + '0');
-					_putchar((x % 10) + '0');
 				}
-				_putchar('\n');
+				_putchar((x % 10) + '0');
 			}
+			_putchar('\n');
 		}
 	}
 }

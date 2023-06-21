@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_times_table - prints the time table of input n, starting with 0
+ * print_times_table - prints the time table of input n,
+ * starting with 0
  * @n: the value of the xtable
- * Return: n
  */
 void print_times_table(int n)
 {

@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - prints the time table of input n,
- * starting with 0
+ * starting with 0.
  * @n: the value of the xtable
  */
 void print_times_table(int n)

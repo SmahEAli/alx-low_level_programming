@@ -9,7 +9,6 @@ int main(void)
 {
 	int  ct;
 	unsigned long f1 = 0, f2 = 1, sum, f1_h1, f1_h2, f2_h1, f2_h2, h1, h2;
-
 	for (ct = 0; ct < 92; ct++)
 	{
 		sum = f1 + f2;
@@ -24,7 +23,7 @@ int main(void)
 	for (ct = 93; ct < 99; ct++)
 	{
 		h1 = f1_h1 + f2_h1;
-		h1 = f1_h2 + f2_h2;
+		h2 = f1_h2 + f2_h2;
 		if (f1_h2 + f2_h2 > 9999999999)
 		{
 			h1 += 1;

@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * print_square - prints n 
+ * print_square - prints n
  * @size: the number
  * Return: void
  */
 void print_square(int size)
 {
 	int x, y;
+
 	if (size <= 0)
 	{
 		_putchar('\n');

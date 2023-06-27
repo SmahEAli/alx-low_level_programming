@@ -25,6 +25,7 @@ int main(void)
 		if ((sum - 2772) % 2 != 0)
 		{
 			d_h1++;
+		}
 			for (i = 0; pwd[i]; i++)
 			{
 				if (pwd[i] >= (33 + d_h1))
@@ -40,8 +41,7 @@ int main(void)
 					pwd[i] -= d_h2;
 					break;
 				}
-			}
-		}
+			}	
 	}
 	printf("%s", pwd);
 	return (0);

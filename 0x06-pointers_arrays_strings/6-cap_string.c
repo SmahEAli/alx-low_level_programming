@@ -5,34 +5,34 @@
  * @st: the string to be capitalized
  * Return: a pointer
  */
-char *cap_string(char *str)
+char *cap_string(char *st)
 {
 	int i = 0;
 
-	while (str[i])
+	while (st[i])
 	{
-		while (!(str[i] >= 'a' && str[i] <= 'z'))
+		while (!(st[i] >= 'a' && st[i] <= 'z'))
 		{
 			i++;
 		}
-		if (str[i - 1] == ' ' ||
-		str[i - 1] == '\t' ||
-		str[i - 1] == '\n' ||
-		str[i - 1] == ',' ||
-		str[i - 1] == ';' ||
-		str[i - 1] == '.' ||
-		str[i - 1] == '!' ||
-		str[i - 1] == '?' ||
-		str[i - 1] == '"' ||
-		str[i - 1] == '(' ||
-		str[i - 1] == ')' ||
-		str[i - 1] == '{' ||
-		str[i - 1] == '}' ||
+		if (st[i - 1] == ' ' ||
+		st[i - 1] == '\t' ||
+		st[i - 1] == '\n' ||
+		st[i - 1] == ',' ||
+		st[i - 1] == ';' ||
+		st[i - 1] == '.' ||
+		st[i - 1] == '!' ||
+		st[i - 1] == '?' ||
+		st[i - 1] == '"' ||
+		st[i - 1] == '(' ||
+		st[i - 1] == ')' ||
+		st[i - 1] == '{' ||
+		st[i - 1] == '}' ||
 		i == 0)
 		{
-			str[i] -= 32;
+			st[i] -= 32;
 		}
 		i++;
 	}
-	return (str);
+	return (st);
 }

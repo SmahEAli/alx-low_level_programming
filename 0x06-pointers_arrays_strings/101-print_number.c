@@ -3,7 +3,6 @@
 /**
  * print_number - prints an integer
  * @n: int pointer
- * Return: void
  */
 void print_number(int n)
 {

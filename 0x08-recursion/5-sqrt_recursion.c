@@ -6,6 +6,18 @@
  * @n: int
  * Return: Natural int sqrt Always 0
  */
+int _sqrt(int n, int i);
+
+/**
+ * _sqrt - calculates natural sqaure root
+ * @n: no. of sqrt
+ * @i: iteration
+ * Return: int natural Always 0 (Success)
+ */
+int _sqrt_recursion(int n)
+{
+	return (_sqrt(n, 1));
+}
 int _sqrt(int n, int i)
 {
 	int sqrt = i * i;
@@ -19,8 +31,4 @@ int _sqrt(int n, int i)
 		return (i);
 	}
 	return (_sqrt(n, i + 1));
-}
-int _sqrt_recursion(int n)
-{
-	return (_sqrt(n, 1));
 }

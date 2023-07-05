@@ -21,7 +21,7 @@ int is_prime_number(int n)
  */
 int ck_prime(int j, int i)
 {
-	if (n <= 1)
+	if (j <= 1)
 	{
 		return (0);
 	}

@@ -66,7 +66,7 @@ char **strtow(char *str)
 		while (str[i] == ' ')
 			i++;
 		ls = word_len(str + i);
-		st[w] = malloc(sizeod(char) * (ls + 1));
+		st[w] = malloc(sizeof(char) * (ls + 1));
 		if (st[w] == NULL)
 		{
 			for (; w >= 0; w--)

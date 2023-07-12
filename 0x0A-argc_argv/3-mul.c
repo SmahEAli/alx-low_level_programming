@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * main - Prints the x of 2 argument no.

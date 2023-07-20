@@ -7,7 +7,8 @@
  * @separator: string btw strings
  * @n: n0. of strings
  * @...: variable no. of strings
- * Return: void */
+ * Return: void
+ */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ss;

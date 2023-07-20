@@ -7,8 +7,7 @@
  * @separator: string btw strings
  * @n: n0. of strings
  * @...: variable no. of strings
- * Return: void
- */
+ * Return: void */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ss;
@@ -19,7 +18,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		s = va_arg(ss, char *);
-		if (ss == NULL)
+		if (s == NULL)
 			printf("(nil)");
 		else
 			printf("%s", s);

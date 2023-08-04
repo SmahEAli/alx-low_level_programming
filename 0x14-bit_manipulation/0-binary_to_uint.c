@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * binary_to_uint - func to converts a binary number to an unsigned int
@@ -8,7 +8,7 @@
 unsigned int binary_to_uint(const char *b)
 {
 	int i;
-	unsigned int c;
+	unsigned int c = 0;
 
 	if (!b)
 		return (0);
@@ -18,5 +18,5 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		c = 2 * c + (b[i] - '0');
 	}
-	return (0);
+	return (c);
 }

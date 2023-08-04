@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * print_binary - fn prints the binary representation of a number
@@ -13,14 +13,14 @@ void print_binary(unsigned long int n)
 	for (j = 63; j >= 0; j--)
 	{
 		i = n >> j;
-		if ()
+		if (i & 1)
 		{
 			_putchar('1');
-			i++;
+			c++;
 		}
-		else if (i)
+		else if (c)
 			_putchar('0');
 	}
-	if (!i)
+	if (!c)
 		_putchar('0');
 }

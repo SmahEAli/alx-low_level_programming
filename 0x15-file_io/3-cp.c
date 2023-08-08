@@ -35,7 +35,7 @@ void close_f(int f_des)
 	cl = close(f_des);
 	if (cl == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close f_des %d\n", f_des);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", f_des);
 		exit(100);
 	}
 }
